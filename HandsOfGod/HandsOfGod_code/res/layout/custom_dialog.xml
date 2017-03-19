@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/layout_root" android:orientation="vertical"
+ android:layout_width="fill_parent" android:layout_height="fill_parent"
+ android:padding="10dp">
+ <EditText android:id="@+id/input" android:layout_width="200dip"
+  android:hint="name"
+  android:layout_height="35dip" android:layout_marginRight="10dp" />
+ <TextView android:id="@+id/output" android:layout_width="200dip"
+  android:layout_height="35dip" android:layout_marginRight="10dp" />
+ 
+</LinearLayout>
